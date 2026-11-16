@@ -9,9 +9,14 @@ public abstract class Equipamiento {
         this.categoria = categoria;
     }
 
+    public String getNombre() { return nombre; }
+
     public Categoria getCategoria(){
         return this.categoria;
     }
+
+    @Override
+    public String toString() { return nombre + " (" + categoria + ")"; }
 
     public int getBonusVidaMaxima() { return 0; }
     public int getBonusEnergiaMaxima() { return 0; }
