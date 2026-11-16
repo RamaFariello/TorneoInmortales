@@ -40,7 +40,7 @@ public abstract class Combatiente {
     }
 
     public Combatiente(int id, String nombre, int vidaMax, int energMax){
-        if (vidaMax <= 0 || energMax < 0 || nombre.isBlank() || nombre == null){
+        if (vidaMax <= 0 || energMax < 0 || nombre == null || nombre.isBlank()){
             throw new IllegalArgumentException("Valores iniciales inválidos");
         }
         this.id = id;
@@ -51,14 +51,18 @@ public abstract class Combatiente {
         this.energiaMax = energMax;
     }
 
-    //combatiente puede preguntar por que equipamiento tiene 
+    public int getId() { return id; }
+
+    public String getNombre() { return nombre; }
+
+    //combatiente puede preguntar por que equipamiento tiene
     public Map<Categoria, Equipamiento> getEquipamientos() {
         return equipamientos;
     }
 
     public void equipar(Equipamiento equipo){
         if(enCombate){throw new EquipamientoInvalidoException("No se puede cambiar el equipamiento mistras se esta en combate");}
-        if(equipamientos.size() > MAX_EQUIPAMIENTO){throw new EquipamientoInvalidoException(nombre + " ya lleva " + MAX_EQUIPAMIENTO + " equipamientos");}
+        if(equipamientos.size() >= MAX_EQUIPAMIENTO){throw new EquipamientoInvalidoException(nombre + " ya lleva " + MAX_EQUIPAMIENTO + " equipamientos");}
         if(equipamientos.containsKey(equipo.getCategoria())){
             throw new EquipamientoInvalidoException("Ya se otorgo un equipamiento de la categoria " + equipo.getCategoria());
         }

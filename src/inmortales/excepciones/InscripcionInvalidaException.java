@@ -1,5 +1,7 @@
 package inmortales.excepciones;
 
-public class InscripcionInvalidaException {
-
+public class InscripcionInvalidaException extends TorneoInmortalesException {
+    public InscripcionInvalidaException(String mensaje) {
+        super(mensaje);
+    }
 }
