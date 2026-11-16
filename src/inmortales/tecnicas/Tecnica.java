@@ -1,26 +1,34 @@
 package inmortales.tecnicas;
 
+import inmortales.combatientes.Combatiente;
+
 public abstract class Tecnica {
     private final String nombre;
     private final int costoEnergia;
-    private final TipoTecnica tipo;  
+    private final TipoTecnica tipo;
 
-    public Tecnica(String nombre, int costoEnergia, TipoTecnica tipo){
-        if(costoEnergia < 0) throw new IllegalArgumentException("costo negativo");
+    protected Tecnica(String nombre, int costoEnergia, TipoTecnica tipo) {
+        if (nombre == null || nombre.trim().isEmpty()) throw new IllegalArgumentException("nombre invalido");
+        if (costoEnergia < 0) throw new IllegalArgumentException("costo negativo");
         this.nombre = nombre;
         this.costoEnergia = costoEnergia;
         this.tipo = tipo;
     }
 
+    public final void ejecutar(Combatiente ejecutor, Combatiente objetivo) {
+        aplicarEfecto(ejecutor, objetivo);
+    }
+
+    protected abstract void aplicarEfecto(Combatiente ejecutor, Combatiente objetivo);
+
+    public abstract String describirEfecto(int variacionVida);
+
     public String getNombre() { return nombre; }
 
-    public int getCostoEnergia() {
-        return costoEnergia;
-    }
+    public int getCostoEnergia() { return costoEnergia; }
 
     public TipoTecnica getTipo() { return tipo; }
 
-    /** Dos tecnicas son la misma si tienen el mismo nombre (sirve para usarlas como clave de un Map). */
     @Override
     public boolean equals(Object o) {
         return (o instanceof Tecnica) && nombre.equals(((Tecnica) o).nombre);
@@ -31,6 +39,4 @@ public abstract class Tecnica {
 
     @Override
     public String toString() { return nombre; }
-    
-
 }

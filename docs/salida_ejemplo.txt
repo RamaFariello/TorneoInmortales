@@ -1,0 +1,214 @@
+##########  ESCENARIO 1: TORNEO DE 4 PAREJAS (detallado, con combatiente reactivo)  ##########
+--- Ronda 1: Pareja 1 (Aurelio y Nébula) vs Pareja 2 (Kael y Darian)
+    [Asalto 1] Aurelio usa Corte de los Mil Amaneceres sobre Kael: causa 21 de daño (vida de Kael: 79)
+    [Asalto 1] Nébula usa Dominio de la Nada sobre Kael: causa 8 de daño y le quita 10 de energía (vida de Kael: 71)
+    [Asalto 1] Kael usa Meditación del Inmortal sobre Kael: recupera 25 de vida (vida de Kael: 96)
+    [Asalto 1] Darian usa Corte de los Mil Amaneceres sobre Aurelio: causa 31 de daño (vida de Aurelio: 69)
+    [Asalto 2] Aurelio usa Rugido de la Bestia Primordial sobre Kael: causa 36 de daño (vida de Kael: 60)
+    [Asalto 2] Nébula usa Dominio de la Nada sobre Kael: causa 8 de daño y le quita 10 de energía (vida de Kael: 52)
+    [Asalto 2] Kael usa Meditación del Inmortal sobre Kael: recupera 25 de vida (vida de Kael: 77)
+    [Asalto 2] Darian usa Rugido de la Bestia Primordial sobre Aurelio: causa 50 de daño (vida de Aurelio: 19)
+    [Asalto 3] Aurelio usa Corte de los Mil Amaneceres sobre Kael: causa 21 de daño (vida de Kael: 56)
+    [Asalto 3] Nébula usa Dominio de la Nada sobre Kael: causa 8 de daño y le quita 10 de energía (vida de Kael: 48)
+    [Asalto 3] Kael realiza un ataque básico sobre Aurelio: causa 10 de daño (vida de Aurelio: 9)
+    [Asalto 3] Darian usa Corte de los Mil Amaneceres sobre Aurelio: causa 9 de daño (vida de Aurelio: 0)
+    [Asalto 3] Aurelio queda fuera de combate
+    [Asalto 4] Nébula usa Dominio de la Nada sobre Kael: causa 8 de daño y le quita 10 de energía (vida de Kael: 40)
+    [Asalto 4] Kael realiza un ataque básico sobre Nébula: causa 10 de daño (vida de Nébula: 90)
+    [Asalto 4] Darian usa Corte de los Mil Amaneceres sobre Nébula: causa 31 de daño (vida de Nébula: 59)
+    [Asalto 5] Nébula usa Meditación del Inmortal sobre Nébula: recupera 25 de vida (vida de Nébula: 84)
+    [Asalto 5] Kael realiza un ataque básico sobre Nébula: causa 10 de daño (vida de Nébula: 74)
+    [Asalto 5] Darian usa Corte de los Mil Amaneceres sobre Nébula: causa 31 de daño (vida de Nébula: 43)
+    [Asalto 6] Nébula usa Meditación del Inmortal sobre Nébula: recupera 25 de vida (vida de Nébula: 68)
+    [Asalto 6] Kael realiza un ataque básico sobre Nébula: causa 10 de daño (vida de Nébula: 58)
+    [Asalto 6] Darian usa Corte de los Mil Amaneceres sobre Nébula: causa 31 de daño (vida de Nébula: 27)
+    [Asalto 7] Nébula usa Meditación del Inmortal sobre Nébula: recupera 25 de vida (vida de Nébula: 52)
+    [Asalto 7] Kael usa Meditación del Inmortal sobre Kael: recupera 25 de vida (vida de Kael: 65)
+    [Asalto 7] Darian realiza un ataque básico sobre Nébula: causa 18 de daño (vida de Nébula: 34)
+    [Asalto 8] Nébula realiza un ataque básico sobre Kael: causa 4 de daño (vida de Kael: 61)
+    [Asalto 8] Kael realiza un ataque básico sobre Nébula: causa 10 de daño (vida de Nébula: 24)
+    [Asalto 8] Darian realiza un ataque básico sobre Nébula: causa 18 de daño (vida de Nébula: 6)
+    [Asalto 9] Nébula realiza un ataque básico sobre Kael: causa 4 de daño (vida de Kael: 57)
+    [Asalto 9] Kael realiza un ataque básico sobre Nébula: causa 6 de daño (vida de Nébula: 0)
+    [Asalto 9] Nébula queda fuera de combate
+    Resultado (ronda 1, 9 asaltos): gana Pareja 2 (Kael y Darian) con 157 de vida total; Pareja 1 (Aurelio y Nébula) termina con 0
+--- Ronda 1: Pareja 3 (Lysa y Orión) vs Pareja 4 (Thorn y Furia)
+    [Asalto 1] Lysa usa Muro del Cuerpo Dorado sobre Lysa: reduce 30% el daño que recibe (vida de Lysa: 130)
+    [Asalto 1] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 90)
+    [Asalto 1] Thorn usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 119)
+    [Asalto 1] Furia usa Rugido de la Bestia Primordial sobre Lysa: causa 19 de daño (vida de Lysa: 100)
+    [Asalto 2] Lysa usa Meditación del Inmortal sobre Lysa: recupera 25 de vida (vida de Lysa: 125)
+    [Asalto 2] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 80)
+    [Asalto 2] Thorn usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 114)
+    [Asalto 2] Furia usa Rugido de la Bestia Primordial sobre Lysa: causa 19 de daño (vida de Lysa: 95)
+    [Asalto 3] Lysa usa Meditación del Inmortal sobre Lysa: recupera 25 de vida (vida de Lysa: 120)
+    [Asalto 3] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 70)
+    [Asalto 3] Thorn usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 109)
+    [Asalto 3] Furia realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 104)
+    [Asalto 4] Lysa usa Meditación del Inmortal sobre Lysa: recupera 25 de vida (vida de Lysa: 129)
+    [Asalto 4] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 60)
+    [Asalto 4] Thorn usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 118)
+    [Asalto 4] Furia realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 113)
+    [Asalto 5] Lysa realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 50)
+    [Asalto 5] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 40)
+    [Asalto 5] Thorn usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 102)
+    [Asalto 5] Furia usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 91)
+    [Asalto 6] Lysa usa Meditación del Inmortal sobre Lysa: recupera 25 de vida (vida de Lysa: 116)
+    [Asalto 6] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 30)
+    [Asalto 6] Thorn realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 111)
+    [Asalto 6] Furia usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 100)
+    [Asalto 7] Lysa realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 20)
+    [Asalto 7] Orión realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 10)
+    [Asalto 7] Thorn realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 95)
+    [Asalto 7] Furia usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 84)
+    [Asalto 8] Lysa realiza un ataque básico sobre Thorn: causa 10 de daño (vida de Thorn: 0)
+    [Asalto 8] Thorn queda fuera de combate
+    [Asalto 8] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 90)
+    [Asalto 8] Furia realiza un ataque básico sobre Lysa: causa 9 de daño [ataque potenciado] (vida de Lysa: 75)
+    [Asalto 9] Lysa usa Meditación del Inmortal sobre Lysa: recupera 25 de vida (vida de Lysa: 100)
+    [Asalto 9] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 80)
+    [Asalto 9] Furia usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 89)
+    [Asalto 10] Lysa realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 70)
+    [Asalto 10] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 60)
+    [Asalto 10] Furia realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 84)
+    [Asalto 11] Lysa realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 50)
+    [Asalto 11] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 40)
+    [Asalto 11] Furia usa Corte de los Mil Amaneceres sobre Lysa: causa 11 de daño (vida de Lysa: 73)
+    [Asalto 12] Lysa realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 30)
+    [Asalto 12] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 20)
+    [Asalto 12] Furia realiza un ataque básico sobre Lysa: causa 5 de daño (vida de Lysa: 68)
+    [Asalto 13] Lysa realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 10)
+    [Asalto 13] Orión realiza un ataque básico sobre Furia: causa 10 de daño (vida de Furia: 0)
+    [Asalto 13] Furia queda fuera de combate
+    Resultado (ronda 1, 13 asaltos): gana Pareja 3 (Lysa y Orión) con 198 de vida total; Pareja 4 (Thorn y Furia) termina con 0
+--- Entre rondas: los finalistas intentan equiparse un Sello del Fénix ---
+ - Kael se equipa un Sello del Fénix -> (aceptado)
+ - Lysa se equipa un Sello del Fénix -> RECHAZADO: Lysa ya lleva un equipamiento de categoría SELLO
+--- Ronda 2: Pareja 2 (Kael y Darian) vs Pareja 3 (Lysa y Orión)
+    [Asalto 1] Kael usa Dominio de la Nada sobre Lysa: causa 8 de daño y le quita 10 de energía (vida de Lysa: 122)
+    [Asalto 1] Darian usa Rugido de la Bestia Primordial sobre Lysa: causa 36 de daño (vida de Lysa: 86)
+    [Asalto 1] Lysa usa Muro del Cuerpo Dorado sobre Lysa: reduce 30% el daño que recibe (vida de Lysa: 86)
+    [Asalto 1] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 94)
+    [Asalto 2] Kael usa Dominio de la Nada sobre Lysa: causa 5 de daño y le quita 10 de energía (vida de Lysa: 81)
+    [Asalto 2] Darian usa Rugido de la Bestia Primordial sobre Lysa: causa 25 de daño (vida de Lysa: 56)
+    [Asalto 2] Lysa realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 88)
+    [Asalto 2] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 82)
+    [Asalto 3] Kael usa Dominio de la Nada sobre Lysa: causa 5 de daño y le quita 10 de energía (vida de Lysa: 51)
+    [Asalto 3] Darian realiza un ataque básico sobre Lysa: causa 7 de daño (vida de Lysa: 44)
+    [Asalto 3] Lysa realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 76)
+    [Asalto 3] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 70)
+    [Asalto 4] Kael usa Dominio de la Nada sobre Lysa: causa 5 de daño y le quita 10 de energía (vida de Lysa: 39)
+    [Asalto 4] Darian realiza un ataque básico sobre Lysa: causa 7 de daño (vida de Lysa: 32)
+    [Asalto 4] Lysa realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 64)
+    [Asalto 4] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 58)
+    [Asalto 5] Kael usa Dominio de la Nada sobre Lysa: causa 5 de daño y le quita 10 de energía (vida de Lysa: 27)
+    [Asalto 5] Darian realiza un ataque básico sobre Lysa: causa 7 de daño (vida de Lysa: 20)
+    [Asalto 5] Lysa realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 52)
+    [Asalto 5] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 46)
+    [Asalto 6] Kael realiza un ataque básico sobre Lysa: causa 2 de daño (vida de Lysa: 18)
+    [Asalto 6] Darian usa Rugido de la Bestia Primordial sobre Lysa: causa 18 de daño (vida de Lysa: 0)
+    [Asalto 6] Lysa queda fuera de combate
+    [Asalto 6] Orión usa Muro del Cuerpo Dorado sobre Orión: reduce 30% el daño que recibe (vida de Orión: 130)
+    [Asalto 7] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 126)
+    [Asalto 7] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 117)
+    [Asalto 7] Orión usa Meditación del Inmortal sobre Orión: recupera 13 de vida (vida de Orión: 130)
+    [Asalto 8] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 126)
+    [Asalto 8] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 117)
+    [Asalto 8] Orión usa Meditación del Inmortal sobre Orión: recupera 13 de vida (vida de Orión: 130)
+    [Asalto 9] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 126)
+    [Asalto 9] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 117)
+    [Asalto 9] Orión usa Meditación del Inmortal sobre Orión: recupera 13 de vida (vida de Orión: 130)
+    [Asalto 10] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 126)
+    [Asalto 10] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 117)
+    [Asalto 10] Orión usa Meditación del Inmortal sobre Orión: recupera 13 de vida (vida de Orión: 130)
+    [Asalto 11] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 126)
+    [Asalto 11] Darian usa Rugido de la Bestia Primordial sobre Orión: causa 32 de daño (vida de Orión: 94)
+    [Asalto 11] Orión usa Meditación del Inmortal sobre Orión: recupera 25 de vida (vida de Orión: 119)
+    [Asalto 12] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 115)
+    [Asalto 12] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 106)
+    [Asalto 12] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 40)
+    [Asalto 13] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 102)
+    [Asalto 13] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 93)
+    [Asalto 13] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 34)
+    [Asalto 14] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 89)
+    [Asalto 14] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 80)
+    [Asalto 14] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 28)
+    [Asalto 15] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 76)
+    [Asalto 15] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 67)
+    [Asalto 15] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 22)
+    [Asalto 16] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 63)
+    [Asalto 16] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 54)
+    [Asalto 16] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 16)
+    [Asalto 17] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 50)
+    [Asalto 17] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 41)
+    [Asalto 17] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 10)
+    [Asalto 18] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 37)
+    [Asalto 18] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 28)
+    [Asalto 18] Orión realiza un ataque básico sobre Darian: causa 6 de daño (vida de Darian: 4)
+    [Asalto 19] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 24)
+    [Asalto 19] Darian realiza un ataque básico sobre Orión: causa 9 de daño (vida de Orión: 15)
+    [Asalto 19] Orión realiza un ataque básico sobre Darian: causa 4 de daño (vida de Darian: 0)
+    [Asalto 19] Darian queda fuera de combate
+    [Asalto 20] Kael realiza un ataque básico sobre Orión: causa 4 de daño (vida de Orión: 11)
+    [Asalto 20] Orión realiza un ataque básico sobre Kael: causa 4 de daño (vida de Kael: 126)
+    Resultado (ronda 2, 20 asaltos): gana Pareja 2 (Kael y Darian) con 126 de vida total; Pareja 3 (Lysa y Orión) termina con 11
+
+*** LOS DOS SANTOS SUPREMOS: Kael y Darian (Pareja 2) ***
+
+=== TABLA DE POSICIONES ===
+Pos  Pareja                                        Ronda    Vida total
+1    Pareja 2 (Kael y Darian)                      2        126
+2    Pareja 3 (Lysa y Orión)                       2        11
+3    Pareja 1 (Aurelio y Nébula)                   1        0
+4    Pareja 4 (Thorn y Furia)                      1        0
+
+##########  ESCENARIO 2: TORNEO DE 8 PAREJAS (resumido)  ##########
+--- Ronda 1: Pareja 1 (Aurelio y Nébula) vs Pareja 2 (Kael y Darian)
+    [Asalto 2] Kael queda fuera de combate
+    [Asalto 6] Darian queda fuera de combate
+    Resultado (ronda 1, 6 asaltos): gana Pareja 1 (Aurelio y Nébula) con 164 de vida total; Pareja 2 (Kael y Darian) termina con 0
+--- Ronda 1: Pareja 3 (Lysa y Orión) vs Pareja 4 (Brisa y Thorn)
+    [Asalto 8] Brisa queda fuera de combate
+    [Asalto 15] Thorn queda fuera de combate
+    Resultado (ronda 1, 15 asaltos): gana Pareja 3 (Lysa y Orión) con 173 de vida total; Pareja 4 (Brisa y Thorn) termina con 0
+--- Ronda 1: Pareja 5 (Mira y Vex) vs Pareja 6 (Selene y Ragnar)
+    [Asalto 12] Mira queda fuera de combate
+    Resultado (ronda 1, 20 asaltos): gana Pareja 6 (Selene y Ragnar) con 204 de vida total; Pareja 5 (Mira y Vex) termina con 20
+--- Ronda 1: Pareja 7 (Ilya y Zhao) vs Pareja 8 (Anya y Bruno)
+    [Asalto 2] Anya queda fuera de combate
+    [Asalto 6] Bruno queda fuera de combate
+    Resultado (ronda 1, 6 asaltos): gana Pareja 7 (Ilya y Zhao) con 164 de vida total; Pareja 8 (Anya y Bruno) termina con 0
+--- Ronda 2: Pareja 1 (Aurelio y Nébula) vs Pareja 3 (Lysa y Orión)
+    [Asalto 5] Lysa queda fuera de combate
+    [Asalto 13] Aurelio queda fuera de combate
+    [Asalto 17] Orión queda fuera de combate
+    Resultado (ronda 2, 17 asaltos): gana Pareja 1 (Aurelio y Nébula) con 76 de vida total; Pareja 3 (Lysa y Orión) termina con 0
+--- Ronda 2: Pareja 6 (Selene y Ragnar) vs Pareja 7 (Ilya y Zhao)
+    [Asalto 6] Ilya queda fuera de combate
+    [Asalto 6] Selene queda fuera de combate
+    Resultado (ronda 2, 20 asaltos): gana Pareja 6 (Selene y Ragnar) con 49 de vida total; Pareja 7 (Ilya y Zhao) termina con 28
+--- Ronda 3: Pareja 1 (Aurelio y Nébula) vs Pareja 6 (Selene y Ragnar)
+    [Asalto 6] Aurelio queda fuera de combate
+    [Asalto 8] Selene queda fuera de combate
+    [Asalto 18] Nébula queda fuera de combate
+    Resultado (ronda 3, 18 asaltos): gana Pareja 6 (Selene y Ragnar) con 60 de vida total; Pareja 1 (Aurelio y Nébula) termina con 0
+
+*** LOS DOS SANTOS SUPREMOS: Selene y Ragnar (Pareja 6) ***
+
+=== TABLA DE POSICIONES ===
+Pos  Pareja                                        Ronda    Vida total
+1    Pareja 6 (Selene y Ragnar)                    3        60
+2    Pareja 1 (Aurelio y Nébula)                   3        0
+3    Pareja 7 (Ilya y Zhao)                        2        28
+4    Pareja 3 (Lysa y Orión)                       2        0
+5    Pareja 5 (Mira y Vex)                         1        20
+6    Pareja 2 (Kael y Darian)                      1        0
+7    Pareja 4 (Brisa y Thorn)                      1        0
+8    Pareja 8 (Anya y Bruno)                       1        0
+
+##########  ESCENARIO 3: REGLAS QUE SE RECHAZAN  ##########
+ - Kael ya lleva Armadura: se le suma otra armadura (categoría repetida) -> RECHAZADO: Kael ya lleva un equipamiento de categoría ARMADURA
+ - Aurelio recibe Armadura y Anillo, y luego un cuarto objeto (Sello) -> RECHAZADO: Aurelio ya lleva 3 equipamientos
+ - Se inscribe de nuevo la pareja 1 -> RECHAZADO: Ya hay una pareja registrada con el identificador 1
+ - Se inscribe a Aurelio en otra pareja -> RECHAZADO: Aurelio ya está inscripto
+ - Se inicia el torneo con 1 sola pareja -> RECHAZADO: El torneo se juega con 4 u 8 parejas (hay 1)

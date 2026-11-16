@@ -1,14 +1,12 @@
 package inmortales.equipamiento;
 
-public class AnilloEspiritual extends  Equipamiento{
-    private static final int BONUS_ENERGIA = 5;
+public class AnilloEspiritual extends Equipamiento {
+    private static final int VALOR = 5;
 
-    public AnilloEspiritual(){
-        super("Anillo Espiritual",Categoria.ANILLO);
+    public AnilloEspiritual() {
+        super("Anillo Espiritual", CategoriaEquipamiento.ANILLO);
     }
 
-    @Override 
-    public int getBonusEnergiaMaxima(){
-        return BONUS_ENERGIA;
-    }
+    @Override
+    public int getBonusEnergiaMaxima() { return VALOR; }
 }

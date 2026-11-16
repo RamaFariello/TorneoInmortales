@@ -1,17 +1,19 @@
 package inmortales.combatientes;
 
-import inmortales.tecnicas.Tecnica;
+import inmortales.escuelas.Escuela;
 
 public class HechiceroDelVacio extends Combatiente {
-    public static final int ENERGIA_GASTA_PROCENTAJE = 80;
+    private static final int PORCENTAJE_COSTO = 80;
 
-    public HechiceroDelVacio(int id, String nombre){
-        super(id, nombre);
+    public HechiceroDelVacio(int id, String nombre, Escuela escuela) {
+        super(id, nombre, escuela);
     }
 
-    
-    @Override 
-    public int modificarCostoEnergia(Tecnica tecnica){
-        return (tecnica.getCostoEnergia()*ENERGIA_GASTA_PROCENTAJE/100);
+    @Override
+    public String getTipo() { return "Hechicero del Vacío"; }
+
+    @Override
+    protected int calcularCostoEnergia(int costoBase) {
+        return costoBase * PORCENTAJE_COSTO / 100;
     }
 }

@@ -1,14 +1,12 @@
 package inmortales.equipamiento;
 
 public class ArmaduraDorada extends Equipamiento {
-    private static final int REDUCCION_DANIO = 4;
+    private static final int VALOR = 4;
 
-    public ArmaduraDorada(){
-        super("Armadura Dorada",Categoria.ARMADURA);
+    public ArmaduraDorada() {
+        super("Armadura Dorada", CategoriaEquipamiento.ARMADURA);
     }
 
-    @Override 
-    public int modificarDanioRecibido(int danio){
-        return (danio - REDUCCION_DANIO);
-    }
+    @Override
+    public int getReduccionDanio() { return VALOR; }
 }

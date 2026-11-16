@@ -1,13 +1,24 @@
 package inmortales.tecnicas;
 
-public class DominioDeLaNada extends TecnicaDeDanio{
+import inmortales.combatientes.Combatiente;
+
+public class DominioDeLaNada extends Tecnica {
+    public static final int DANIO_BASE = 15;
+    public static final int ENERGIA_DRENADA = 10;
     private static final int COSTO = 15;
-    private static  final int DANIO = 15;
-    private static final int ENERGIA_DRENADA = 10;
 
-    public DominioDeLaNada(){
-        super("Dominio de la Nada", COSTO, DANIO);
-
+    public DominioDeLaNada() {
+        super("Dominio de la Nada", COSTO, TipoTecnica.OFENSIVA);
     }
 
+    @Override
+    protected void aplicarEfecto(Combatiente ejecutor, Combatiente objetivo) {
+        ejecutor.atacar(objetivo, DANIO_BASE);
+        objetivo.gastarEnergia(ENERGIA_DRENADA);
+    }
+
+    @Override
+    public String describirEfecto(int variacionVida) {
+        return "causa " + variacionVida + " de daño y le quita " + ENERGIA_DRENADA + " de energía";
+    }
 }

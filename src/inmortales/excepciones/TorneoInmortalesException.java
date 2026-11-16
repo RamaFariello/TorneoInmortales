@@ -1,7 +1,9 @@
 package inmortales.excepciones;
 
 public class TorneoInmortalesException extends RuntimeException {
-    public TorneoInmortalesException(String mensaje){
+    private static final long serialVersionUID = 1L;
+
+    public TorneoInmortalesException(String mensaje) {
         super(mensaje);
     }
 }

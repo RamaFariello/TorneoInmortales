@@ -1,14 +1,19 @@
 package inmortales.combatientes;
 
-public class CultivadorDeLaEspada extends Combatiente{
-    private static final int DANIO_PROVOCA_PORCENTAJE = 125;
+import inmortales.escuelas.Escuela;
 
-    public CultivadorDeLaEspada(int id,String nombre){
-        super(id,nombre);
+public class CultivadorDeLaEspada extends Combatiente {
+    private static final int PORCENTAJE_DANIO = 125;
+
+    public CultivadorDeLaEspada(int id, String nombre, Escuela escuela) {
+        super(id, nombre, escuela);
     }
 
-    @Override 
-    public int modificarDanioProvocado(int danio){
-        return (danio*DANIO_PROVOCA_PORCENTAJE/100);
+    @Override
+    public String getTipo() { return "Cultivador de la Espada"; }
+
+    @Override
+    protected int calcularDanioCausado(int danioBase) {
+        return danioBase * PORCENTAJE_DANIO / 100;
     }
 }

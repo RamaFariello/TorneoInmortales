@@ -1,33 +1,64 @@
 package inmortales.presentacion;
 
-import inmortales.acontecimientos.Acontecimiento;
-import inmortales.acontecimientos.Interesado;
-
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
-/** Única clase del sistema que escribe en pantalla. */
-public class HeraldoImperial implements Interesado {
-    private final boolean detallado;
+import inmortales.acontecimientos.Acontecimiento;
+import inmortales.acontecimientos.ObservadorTorneo;
+import inmortales.acontecimientos.TipoAcontecimiento;
 
-    public HeraldoImperial() { this(true); }
+public class HeraldoImperial implements ObservadorTorneo {
+    private final PrintStream salida;
+    private final boolean mostrarAcciones;
 
-    /** @param detallado si es false, omite acciones y efectos (muestra solo lo principal). */
-    public HeraldoImperial(boolean detallado) { this.detallado = detallado; }
-
-    @Override
-    public void notificar(Acontecimiento acontecimiento) {
-        if (detallado || !acontecimiento.esDetalle()) System.out.println(acontecimiento.describir());
+    public HeraldoImperial() {
+        this(true);
     }
 
-    public void anunciar(String mensaje) { System.out.println(mensaje); }
+    public HeraldoImperial(boolean mostrarAcciones) {
+        this(new PrintStream(System.out, true, StandardCharsets.UTF_8), mostrarAcciones);
+    }
 
-    public void presentarTabla(List<EntradaTabla> tabla) {
-        System.out.println("\n========== TABLA DE POSICIONES ==========");
-        System.out.printf("%-4s %-40s %-8s %-6s%n", "Pos", "Pareja", "Ronda", "Vida");
-        int puesto = 1;
-        for (EntradaTabla fila : tabla) {
-            System.out.printf("%-4d %-40s %-8d %-6d%n", puesto++, fila.pareja(), fila.ultimaRonda(), fila.vidaFinal());
+    public HeraldoImperial(PrintStream salida, boolean mostrarAcciones) {
+        this.salida = salida;
+        this.mostrarAcciones = mostrarAcciones;
+    }
+
+    @Override
+    public void actualizar(Acontecimiento a) {
+        switch (a.getTipo()) {
+            case INICIO_COMBATE:
+                salida.println("--- Ronda " + a.getRonda() + ": " + a.getDescripcion());
+                break;
+            case ACCION:
+                if (mostrarAcciones) salida.println("    [Asalto " + a.getAsalto() + "] " + a.getDescripcion());
+                break;
+            case ELIMINACION:
+                salida.println("    [Asalto " + a.getAsalto() + "] " + a.getDescripcion());
+                break;
+            case RESULTADO_COMBATE:
+                salida.println("    " + a.getDescripcion());
+                break;
+            case PROCLAMACION:
+                salida.println();
+                salida.println("*** " + a.getDescripcion() + " ***");
+                break;
+            default:
+                salida.println(a.getDescripcion());
         }
-        System.out.println("=========================================");
+    }
+
+    public void anunciar(String texto) { salida.println(texto); }
+
+    public void mostrarTablaPosiciones(List<RegistroPosicion> tabla) {
+        salida.println();
+        salida.println("=== TABLA DE POSICIONES ===");
+        salida.println(String.format("%-4s %-45s %-8s %s", "Pos", "Pareja", "Ronda", "Vida total"));
+        int posicion = 1;
+        for (RegistroPosicion r : tabla) {
+            salida.println(String.format("%-4d %-45s %-8d %d", posicion++, r.getPareja(), r.getUltimaRonda(),
+                    r.getVidaTotalFinal()));
+        }
     }
 }

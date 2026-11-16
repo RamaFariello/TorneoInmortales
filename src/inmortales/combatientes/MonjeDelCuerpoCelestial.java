@@ -1,15 +1,19 @@
 package inmortales.combatientes;
 
-public class MonjeDelCuerpoCelestial extends Combatiente {
-    public static final int DANIO_RECIBE_PROCENTAJE = 80;
-    
+import inmortales.escuelas.Escuela;
 
-    public MonjeDelCuerpoCelestial(int id, String nombre){
-        super(id, nombre);
+public class MonjeDelCuerpoCelestial extends Combatiente {
+    private static final int PORCENTAJE_DANIO_RECIBIDO = 80;
+
+    public MonjeDelCuerpoCelestial(int id, String nombre, Escuela escuela) {
+        super(id, nombre, escuela);
     }
 
-    @Override 
-    public int modificarDanioRecibido(int danio){
-        return (danio*DANIO_RECIBE_PROCENTAJE/100);
+    @Override
+    public String getTipo() { return "Monje del Cuerpo Celestial"; }
+
+    @Override
+    protected int calcularDanioRecibido(int danioBase) {
+        return danioBase * PORCENTAJE_DANIO_RECIBIDO / 100;
     }
 }

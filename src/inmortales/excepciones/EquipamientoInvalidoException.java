@@ -1,7 +1,9 @@
 package inmortales.excepciones;
 
 public class EquipamientoInvalidoException extends TorneoInmortalesException {
-    public EquipamientoInvalidoException (String mensaje){
+    private static final long serialVersionUID = 1L;
+
+    public EquipamientoInvalidoException(String mensaje) {
         super(mensaje);
     }
 }
